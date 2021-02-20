@@ -151,7 +151,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Filereader.cpp" />
     <ClCompile Include="ternary-search-tree.cpp" />
+    <ClCompile Include="TST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Filereader.h" />
+    <ClInclude Include="TST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="words_alpha.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
